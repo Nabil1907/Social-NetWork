@@ -1,0 +1,55 @@
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px; 
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  /*Create Post */ 
+  #cont { 
+    width: 800px; 
+    height:500px;
+  }
+  #cont2 {
+    height: 30px;
+    background-color:#f2f2f2;
+    border:solid 0.5px #e6e6e6;
+    margin: 5px;
+  }
+  #cont2 p { 
+
+    margin-left: 10px; 
+  }
+  #cont3 {
+
+    background-color: #e6e6e6;
+    border-radius: 20px;
+  }
